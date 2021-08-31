@@ -70,4 +70,11 @@ const CityCtn = styled.div`
     border: 2px solid #fff;
     transform: scale(1.05);
   }
+
+  @media screen and (max-width: 600px){
+    width: 340px;
+    .info{
+      font-size: 28px;
+    }
+  }
 `

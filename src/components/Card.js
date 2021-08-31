@@ -104,6 +104,11 @@ const CardCtn = styled.div`
     border: 1px solid #fff;
 
   }
+
+
+  @media screen and (max-width: 900px){
+    width: 340px;
+  }
 `
 
 

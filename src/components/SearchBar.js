@@ -70,5 +70,20 @@ const FormSearch = styled.form`
     color: #fff;
     text-align: center;
     text-transform: capitalize;
-}
+    }
+    @media screen and (max-width: 900px){
+        
+        .entrada{
+            width: 70px;
+            font-size: 16px;
+            padding: 2px;
+        }
+        .submit{
+            
+            font-size: 16px;
+            padding: 2px;
+            margin: 0px;
+        }
+    
+    }
 `

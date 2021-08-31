@@ -35,7 +35,7 @@ const NavCtn = styled.nav`
     align-items: center;
     height: 50px;
     padding: 10px;
-    margin: 10px 20px;
+    margin: 0 20px;
     background: rgba(30,30,30,0.5);
     font-size: 18px;
     font-weight: bold;
@@ -48,6 +48,19 @@ const NavCtn = styled.nav`
     }
     a:hover{
         color: #000;
+    }
+
+    @media screen and (max-width: 900px){
+        display: flex;
+        justify-content: center;
+        padding: 6px;
+        margin: 2px 12px;
+        font-size: 14px;
+        margin: 0;
+        a{
+            font-size:  16px;
+            margin-right: 10px;
+        }
     }
 `
 
