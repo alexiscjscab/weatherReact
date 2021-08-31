@@ -15,7 +15,7 @@ const Card = ({max, min, name , img, id, onClose}) => {
           
           <div className='info'>
             <div className='img'>
-              <img src={"http://openweathermap.org/img/wn/"+img+"@2x.png"} width="60" height="70" alt="" />
+              <img src={"https://openweathermap.org/img/wn/"+img+"@2x.png"} width="60" height="70" alt="" />
             </div>
             
             <div className='temperatura'>
