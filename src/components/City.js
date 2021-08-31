@@ -10,7 +10,7 @@ const City = ({city}) => {
     return (
         <CityCtn>
           <h2>{city.name}</h2>
-          <img src={"http://openweathermap.org/img/wn/"+city.img+"@2x.png"} width="60" height="70" alt="" />
+          <img src={"https://openweathermap.org/img/wn/"+city.img+"@2x.png"} width="60" height="70" alt="" />
           <div className="info">
             <p><b>Temp:</b> <span>{city.temp} ºC .</span> </p>
             <p><b>Weather:</b> <span>{city.weather} .</span> </p>
