@@ -55,10 +55,10 @@ const NavCtn = styled.nav`
         justify-content: center;
         padding: 6px;
         margin: 2px 12px;
-        font-size: 14px;
+        font-size: 20px;
         margin: 0;
         a{
-            font-size:  16px;
+            font-size:  20px;
             margin-right: 10px;
         }
     }

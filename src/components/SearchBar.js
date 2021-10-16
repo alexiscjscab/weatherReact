@@ -74,13 +74,13 @@ const FormSearch = styled.form`
     @media screen and (max-width: 900px){
         
         .entrada{
-            width: 70px;
-            font-size: 16px;
+            width: 100px;
+            font-size: 20px;
             padding: 2px;
         }
         .submit{
             
-            font-size: 16px;
+            font-size: 20px;
             padding: 2px;
             margin: 0px;
         }
